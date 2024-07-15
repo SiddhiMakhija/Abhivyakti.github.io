@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhivyakti</title>
+    <link rel="shortcut icon" href="logo.jpg">
+    <style>
+        .bar, .image1, .image2, .image3{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            height: 100%;
+        }
+        .image1 {
+            background-image: url(clouds-6352673_1280.jpg);
+        }
+        .image2 {
+            background-image: url(stones-167089_1920.jpg);
+        }
+        .image3 {
+            background-image: url(grass-3743023_1920.jpg);
+        }
+        body, html{
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+        }
+        .content {
+            background-color: rgba(0,0,0,0.5);
+            height: auto;
+            width: 85%;
+            overflow: hidden;
+            color: white;
+            align-content: center;
+            position: relative;
+            margin: auto;
+            padding: 10px;
+            z-index: 0;
+            top: 50px;
+            left: 30px;
+            right: auto;
+        }
+        .icon{
+            position: relative; 
+            float: left;
+            position: relative;
+            margin-top: 20px;
+            margin-right: 15px;
+        }
+        .written {
+            position: relative; 
+            float: left;
+            align-self: center;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .button{
+            height: 20;
+            float: right;
+            display: inline-block;
+            padding: 15px;
+            margin-top: 135px;
+        }
+        .slideshow image{
+            height: 70%;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .slideshow{
+            float: left;
+        }
+        .mySlides{
+            border-radius: 25px;
+            margin: 15px;
+        }
+        .right:hover{
+            background-color: #f8f0c6;
+            cursor: pointer;
+        }
+        .sidenav{
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            background-color: black;
+        }
+        .sidenav a{
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidenav a:hover{
+            color: #f1f1f1;
+        }
+        .sidenav .closebtn{
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        @media screen and (max-height: 450px){
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+        .navbar{
+            background-image: url(grass-3743023_1920.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 5px;
+            padding-left: 15px;
+            transform: translate(0%, 0%);
+            width: 100%;
+            height: 50px;
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+        <div class="navbar">
+            <div class="nav">
+                <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+        <div id="mySideNav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home Page</a>
+            <a href="abhi.html#vision">Our Vision</a>
+            <a href="abhi.html#mission">Our Mission</a>
+            <a href="abhi.html#team">Our Team</a>
+        </div>
+    <div class="image1" id="vision">
+        <div class="content" style="margin-top: 50px;">
+            <div class="icon">
+                <img src="060-plane.png" alt="plane" height="30px">
+            </div>
+            <div class="written">
+                <h1>OUR VISION</h1>
+                <br>
+            </div>
+            <br><br>
+            <center style="width: 65%; align-content: center; justify-content: center; margin: auto; font-size: 18px;">
+                <p>Today's youth is high on emotions. <br>
+                    They feel so much but most of them lack in expressing them. <br>
+                    Being a young adult myself, I have seen my fellow adults feel so much but bottling up emotions, and eventually harming themselves. <br> <br>
+                    We belong to a country that is rich in art and culture. <br>Rather, I believe that art is the only thing in our history that has never seen a downfall. <br>Everything we were and are proud of, has sometime or the other faced some downfall.. but art... NEVER!! <br><br>
+                    Art was there at our primitive era in the form of ancient wall inscriptions, monuments and statues. <br>Art was there when we were invaded by external forces in the forms of poetry, and logs of philosophers and accounts of the courtmen. <br><br> So we see, the need of self expression exists since the start of mankind. It exists even today, and will become a crucial necessity in the future when man will start facing problems, rooting from this bottling up of emotions.
+                </p>
+            </center>
+        </div>
+    </div>
+    <div class="image2" id="mission">
+        <div class="content">
+            <div class="icon">
+                <img src="124-target.png" alt="target" height="30px">
+            </div>
+            <div class="written">
+                <h1>OUR MISSION</h1>
+                <br>
+            </div>
+            <center style="width: 65%; align-content: center; justify-content: center; margin: auto; font-size: 18px;">
+                <p>
+                    Our main motive is to promote the idea of self expression. <br>
+                    Be it through any means
+                    <ul>
+                        <li>Poetry</li>
+                        <li>Story Telling</li>
+                        <li>Music</li>
+                        <li>Composition</li>
+                        <li>Lyricism</li>
+                        <li>Graphics</li>
+                    </ul>
+                    Wondering how it will benefit us, that too in a technical degree... <br> It surely will, when we will be able to confidentally answer the interviewers' questions and say exactly what's on your mind, these self expression skills will come handy throughout our lives. <br> <br>
+                    Our another mission is to provide a larger audience and greater reach to the upcoming artists who have already started their journey, or want to start but are not confident enough. <br><br>
+                    This club will provide you the opportunity to connect with similar people from all phases and walks of life. You will have the chance to share experiences and thoughts with them, and gain meaningful experience they have gathered throughout their journey. <br><br>
+                    Another aim of this club is to combat stage fear. We are aiming to organize frequent events on both online and offline media, which will help us boost confidence, win over nervousness and stage fear and reach new audience.
+                </p>
+            </center>
+        </div>
+    </div>
+    <div class="image3" id="team">
+        <div class="content" style="top: 10px;">
+            <div class="icon">
+                <img src="125-heart-1.png" alt="team" height="35px">
+            </div>
+            <div class="written">
+                <h1>OUR TEAM</h1>
+            </div>
+            <br><br>
+                <div class="slideshow">
+                    <img src="Aakriti.png" alt="Aakriti" class="mySlides">
+                    <img src="Ashutosh.png" alt="Ashutosh" class="mySlides">
+                    <img src="Geetanjali.png" alt="Geetanjali" class="mySlides">
+                    <img src="Sahil.png" alt="Sahil" class="mySlides">
+                    <img src="Shreyansh.png" alt="Shreyansh" class="mySlides">
+                    <img src="Siddhi.png" alt="Siddhi" class="mySlides">
+                    
+                </div>
+                <div class="button">
+                    <button class="button right" onclick="plusDivs(+1)">&#10095;</button>
+                </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n){
+            showDivs(slideIndex+=n);
+        }
+
+        function showDivs(n){
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n>x.length){slideIndex=1}
+            if (n<1){slideIndex=x.length};
+            for(i=0;i<x.length;i++){
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+            function openNav(){
+                document.getElementById("mySideNav").style.width="250px";
+            }
+            function closeNav(){
+                document.getElementById("mySideNav").style.width="0";
+            }
+        </script>
+    </script>
+</body>
+</html>
